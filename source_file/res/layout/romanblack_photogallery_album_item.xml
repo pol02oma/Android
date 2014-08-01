@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/romanblack_photogallery_album_item_main" android:layout_width="fill_parent" android:layout_height="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/romanblack_photogallery_divider_transparent" android:paddingTop="1.0dip" android:paddingRight="10.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:id="@id/romanblack_photogallery_album_item_thumb" android:background="#66ffffff" android:padding="1.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/romanblack_photogallery_picture_placeholder" />
+        <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/romanblack_photogallery_album_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:layout_width="9.0dip" android:layout_height="13.0dip" android:src="@drawable/romanblack_photogalleery_arrow" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/romanblack_photogallery_comments_nain_layout" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:id="@id/romanblack_photogallery_comments_main_has_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/romanblack_photogallery_comments_main_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/romanblack_photogallery_comments_main_hasnt_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/romanblack_photogallery_comments_main_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="12.0dip" android:textColor="#ffafb2b5" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/romanblack_photogallery_no_comments_yet" />
+                <Button android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/romanblack_photogallery_comments_main_post_comment" android:background="@drawable/romanblack_photogallery_btn_add_post" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="170.0dip" android:layout_height="50.0dip" android:layout_marginTop="35.0dip" android:text="@string/romanblack_photogallery_post_comment" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

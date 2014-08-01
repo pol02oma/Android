@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sergeyb_tablereservation_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="left|center" android:orientation="vertical" android:background="@drawable/sergeyb_tablereservation_list_item_gradient" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tablereservation_upcoming" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="left|center" android:orientation="vertical" android:id="@id/sergeyb_tablereservation_no_upcoming" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/sergeyb_tablereservation_no_upcoming_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/there_are_no_upcoming_reservations" />
+    </LinearLayout>
+    <ListView android:layout_gravity="left|center" android:id="@id/sergeyb_tablereservation_upcoming" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    <LinearLayout android:gravity="center" android:layout_gravity="left|center" android:orientation="vertical" android:background="@drawable/sergeyb_tablereservation_list_item_gradient" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tablereservation_past" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="left|center" android:orientation="vertical" android:id="@id/sergeyb_tablereservation_no_past" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/sergeyb_tablereservation_no_past_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tablereservation_no_reservations" />
+    </LinearLayout>
+    <ListView android:layout_gravity="left|center" android:id="@id/sergeyb_tablereservation_past" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+</LinearLayout>

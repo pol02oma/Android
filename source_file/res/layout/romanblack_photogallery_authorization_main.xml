@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:id="@id/romanblack_photogallery_login_facebookbtn" android:background="@drawable/romanblack_photogallery_facebook_btn_bg" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginTop="20.0dip">
+                <ImageView android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/romanblack_photogallery_fb_logo" />
+                <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginLeft="9.0dip" android:text="@string/romanblack_photogallery_login_with_facebook" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/romanblack_photogallery_login_twitterbtn" android:background="@drawable/romanblack_photogallery_twitter_btn_bg" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginTop="10.0dip">
+                <ImageView android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/romanblack_photogallery_twitter_logo" />
+                <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginLeft="9.0dip" android:text="@string/romanblack_photogallery_login_with_twitter" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="12.0dip" android:gravity="center" android:background="@drawable/romanblack_photogallery_white_round" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/romanblack_photogallery_or" android:lines="1" />
+            <EditText android:textSize="18.0dip" android:textColor="#ff999999" android:gravity="center_vertical" android:id="@id/romanblack_photogallery_login_email" android:background="@drawable/sergeyb_photogallery_row_first_dark" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:hint="@string/romanblack_photogallery_login" />
+            <EditText android:textSize="18.0dip" android:textColor="#ff999999" android:gravity="center_vertical" android:id="@id/romanblack_photogallery_login_password" android:background="@drawable/sergeyb_photogallery_row_last_dark" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:hint="@string/romanblack_photogallery_password" android:inputType="textPassword" />
+            <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/romanblack_photogallery_login_signuplabel" android:background="@drawable/romanblack_photogallery_sign_up_btn_bg" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginTop="15.0dip" android:text="@string/romanblack_photogallery_sign_up" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/romanblack_photogallery_login_emailbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <TextView android:textSize="14.0dip" android:textColor="#ff555555" android:id="@id/romanblack_photogallery_login_emailbtn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/romanblack_photogallery_have_an_account" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

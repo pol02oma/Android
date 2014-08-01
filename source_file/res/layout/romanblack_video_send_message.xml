@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/romanblack_video_send_message_main" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <EditText android:gravity="top" android:id="@id/romanblack_video_sendmessage_edittext" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/romanblack_video_sendmessage_bottombar" android:background="#99000000" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="27.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+            <TextView android:textSize="12.0dip" android:gravity="center" android:id="@id/romanblack_fanwall_sendmessage_cancelbtn" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginRight="5.0dip" android:text="@string/cancel" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="27.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+            <TextView android:textSize="12.0dip" android:gravity="center" android:id="@id/romanblack_fanwall_sendmessage_clear_btn" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="26.0dip" android:text="@string/common_clean_upper" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/romanblack_fanwall_sendmessage_symbols_counter" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/zero_div_150" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+                    <TextView android:textSize="12.0dip" android:gravity="center" android:id="@id/romanblack_fanwall_sendmessage_post_btn" android:paddingLeft="5.0dip" android:paddingTop="0.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/post" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/romanblack_photogallery_comments_corner" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <ImageView android:id="@id/romanblack_photogallery_commentstocomment_listview_header_thumb" android:background="#ff676b6f" android:padding="1.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/romanblack_photogallery_commentstocomment_listview_header_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:maxHeight="30.0dip" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffafb2b5" android:id="@id/romanblack_photogallery_commentstocomment_listview_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffafb2b5" android:id="@id/romanblack_photogallery_commentstocomment_listview_header_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="30.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

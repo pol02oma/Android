@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_gravity="center" android:id="@id/romanblack_rss_videoPlayer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <SeekBar android:id="@id/romanblack_rss_seekBar" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="0.0dip" android:progressDrawable="@drawable/romanblack_rss_icon_seek_bar" android:thumb="@drawable/romanblack_rss_icon_seek_thumb" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+        <LinearLayout android:layout_gravity="center" android:id="@id/romanblack_rss_btnPanel" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/romanblack_rss_btnPrev" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="5.0dip" android:src="@drawable/romanblack_rss_icon_prev" android:scaleType="centerCrop" android:layout_weight="1.0" />
+            <ImageView android:id="@id/romanblack_rss_btnPlay" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="5.0dip" android:src="@drawable/romanblack_rss_icon_play" android:scaleType="centerCrop" android:layout_weight="1.0" />
+            <ImageView android:id="@id/romanblack_rss_btnStop" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="5.0dip" android:src="@drawable/romanblack_rss_icon_stop" android:scaleType="centerCrop" android:layout_weight="1.0" />
+            <ImageView android:id="@id/romanblack_rss_btnNext" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="5.0dip" android:src="@drawable/romanblack_rss_icon_next" android:scaleType="centerCrop" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

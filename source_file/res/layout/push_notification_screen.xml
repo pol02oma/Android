@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/notification_main" android:background="@drawable/splash_screen_ibuildapp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:layout_centerInParent="true" android:layout_centerVertical="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.appbuilder.u846253p1176378.PushNotification.AppPushNotificationPanel android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/push_notification_prev" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/icon_arrow_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/push_notification_next" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/icon_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/notification_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginRight="35.0dip" android:layout_centerInParent="true"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/push_notification_counter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/one_from_one" />
+                <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/push_notification" android:paddingBottom="30.0dip" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:maxLines="10" />
+            </LinearLayout>
+        </com.appbuilder.u846253p1176378.PushNotification.AppPushNotificationPanel>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+            <Button android:gravity="center" android:layout_gravity="center" android:id="@id/push_button_app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="55.0dip" android:text="@string/open_app" android:width="110.0dip" />
+            <Button android:gravity="center" android:layout_gravity="center" android:id="@id/push_button_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="55.0dip" android:text="@string/close" android:width="110.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

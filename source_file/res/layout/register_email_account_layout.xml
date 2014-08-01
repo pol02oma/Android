@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Back" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Sign Up" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/textView3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:layout_marginTop="16.0dip">
+        <EditText android:id="@id/login_screen_signup_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:hint="Login" />
+        <EditText android:id="@id/login_screen_signup_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:hint="Password" android:ems="10" android:inputType="textPassword" />
+        <Button android:id="@id/login_screen_signup_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="Sign Up" />
+    </LinearLayout>
+</LinearLayout>

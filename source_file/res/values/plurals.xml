@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="orderForPersons">
+        <item quantity="other">%d people</item>
+        <item quantity="zero">%d people</item>
+        <item quantity="one">%d people</item>
+        <item quantity="few">%d people</item>
+        <item quantity="many">%d people</item>
+    </plurals>
+    <plurals name="tablereservation_persons_list">
+        <item quantity="other">%d persons</item>
+        <item quantity="zero">%d person</item>
+        <item quantity="one">%d person</item>
+        <item quantity="two">%d persons</item>
+        <item quantity="few">%d persons</item>
+        <item quantity="many">%d persons</item>
+    </plurals>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="orderForPersons">
+        <item quantity="other">%d Persone</item>
+        <item quantity="zero">%d Persona</item>
+        <item quantity="one">%d Persona</item>
+        <item quantity="few">%d Persone</item>
+        <item quantity="many">%d Persone</item>
+    </plurals>
+    <plurals name="tablereservation_persons_list">
+        <item quantity="other">%d persone</item>
+        <item quantity="zero">%d persona</item>
+        <item quantity="one">%d persona</item>
+        <item quantity="two">%d persone</item>
+        <item quantity="few">%d persone</item>
+        <item quantity="many">%d persone</item>
+    </plurals>
+    <plurals name="orderTableForPerson">
+        <item quantity="other">Tavolo per %d Persone</item>
+        <item quantity="zero">Tavolo per %d Persona</item>
+        <item quantity="one">Tavolo per %d Persona</item>
+        <item quantity="few">Tavolo per %d Persone</item>
+        <item quantity="many">Tavolo per %d Persone</item>
+    </plurals>
+</resources>

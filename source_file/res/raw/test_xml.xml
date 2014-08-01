@@ -1,0 +1,36 @@
+<data>
+    <currency><![CDATA[$]]></currency>
+    <mainpagestyle><![CDATA[list]]></mainpagestyle>
+    <colorskin>
+        <color1><![CDATA[#630a00]]></color1>
+        <color2><![CDATA[#ff8f68]]></color2>
+        <color3><![CDATA[#fff1b2]]></color3>
+    </colorskin>
+    <category>
+        <categoryname><![CDATA[Appetizers]]></categoryname>
+        <categoryimg><![CDATA[http://ibuilder.solovathost.com/assets/data/00003/3038/1032/menu/1369050911.png]]></categoryimg>
+        <item price="44">
+            <itemname><![CDATA[Bunn Decanter]]></itemname>
+            <itemdescription><![CDATA[-Get drip-proof, fast, clean pouring with this Bunn® decanter. A high-quality stainless steel base keeps coffee fresher, longer. Available in black and orange (for decaf).]]></itemdescription>
+            <itemimg><![CDATA[http://ibuilder.solovathost.com/assets/data/00003/3038/1032/menu/1369050869.png]]></itemimg>
+            <itemthumbnail><![CDATA[http://ibuilder.solovathost.com/getimage.php?width=160&height=160&url=/assets/data/00003/3038/1032/menu/1369050869.png]]></itemthumbnail>
+        </item>
+        <item price="445">
+            <itemname><![CDATA[Time to Make the Donuts Time to Make the Donuts ]]></itemname>
+            <itemdescription><![CDATA[Our traditional "Time to Make the Donuts" logo is featured on a classic dark chocolate colored t-shirt. Our new line of Retro style t-shirts are made of 100% preshrunk cotton, double-needle stitching and have a seamless collar.]]></itemdescription>
+            <itemimg><![CDATA[http://ibuilder.solovathost.com/assets/data/00003/3038/1032/menu/1369051103.png]]></itemimg>
+            <itemthumbnail><![CDATA[http://ibuilder.solovathost.com/getimage.php?width=160&height=160&url=/assets/data/00003/3038/1032/menu/1369051103.png]]></itemthumbnail>
+        </item>
+    </category>
+    <category>
+        <categoryname><![CDATA[Entrees]]></categoryname>
+        <categoryimg><![CDATA[http://ibuilder.solovathost.com/assets/data/00003/3038/1032/menu/1369050958.png]]></categoryimg>
+    </category>
+    <category>
+        <categoryname><![CDATA[Deserts]]></categoryname>
+        <categoryimg><![CDATA[http://ibuilder.solovathost.com/assets/data/00003/3038/1032/menu/1369051005.png]]></categoryimg>
+    </category>
+    <category>
+        <categoryname><![CDATA[Wine List]]></categoryname>
+    </category>
+</data>

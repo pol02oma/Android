@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <DatePicker android:id="@id/sergeyb_tablereservation_date_layout_datePicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/sergeyb_tablereservation_date_layout_datePicker" android:layout_alignParentLeft="true">
+        <Button android:id="@id/sergeyb_tablereservation_date_layout_buttonSave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_save_upper" android:layout_weight="1.0" />
+        <Button android:id="@id/sergeyb_tablereservation_date_layout_buttonCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_cancel_upper" android:layout_weight="1.0" android:layout_toRightOf="@id/sergeyb_tablereservation_date_layout_buttonSave" />
+    </LinearLayout>
+</RelativeLayout>

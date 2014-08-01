@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/sergeyb_tablereservation_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/sergeyb_tablereservation_content_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/sergeyb_tablereservation_header" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/sergeyb_tablereservation_info_layout" android:background="@drawable/sergeyb_tablereservation_back_transperant" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/sergeyb_tablereservation_header">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/sergeyb_tablereservation_restname_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_toLeftOf="@id/sergeyb_tablereservation_map_holder">
+                        <TextView android:textSize="16.0dip" android:textStyle="bold" android:id="@id/sergeyb_tablereservation_restautant_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="New Text" android:singleLine="false" />
+                        <TextView android:id="@id/sergeyb_tablereservation_restautant_kitchen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="New Text" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sergeyb_tablereservation_map_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="6.0" android:layout_alignParentRight="true">
+                        <WebView android:id="@id/sergeyb_tablereservation_map" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textStyle="bold" android:layout_gravity="center" android:id="@id/sergeyb_tablereservation_address_pointer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/common_address_upper_colon" android:layout_alignParentRight="false" />
+                </RelativeLayout>
+                <TextView android:layout_gravity="left|center" android:id="@id/sergeyb_tablereservation_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="asdkjfaskjfklaj \u0020aslkjf \u0020lkkaskldjf \u0020\u0020a;lsjdf239o92ropa \u0020asd;lkfjaslf" android:singleLine="false" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textStyle="bold" android:layout_gravity="center" android:id="@id/sergeyb_tablereservation_additional_pointer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/common_parking_upper_colon" android:layout_alignParentRight="false" />
+                </RelativeLayout>
+                <TextView android:layout_gravity="left|center" android:id="@id/sergeyb_tablereservation_additional" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="asdkjfaskjfklaj\u0020" android:singleLine="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="left|center" android:orientation="vertical" android:id="@id/sergeyb_tablereservation_table_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/sergeyb_tablereservation_info_layout">
+            <TextView android:layout_gravity="left|center" android:id="@id/sergeyb_tablereservation_order_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="New Text" />
+            <TextView android:layout_gravity="left|center" android:id="@id/sergeyb_tablereservation_persons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="New Text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/sergeyb_tablereservation_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/sergeyb_tablereservation_table_text" android:layout_alignParentBottom="false">
+            <LinearLayout android:orientation="horizontal" android:id="@id/sergeyb_tablereservation_mail_calendar_holder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sergeyb_tablereservation_mail" android:background="@drawable/sergeyb_tablereservation_grey_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                    <TextView android:textStyle="bold" android:textColor="#ff353535" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_send_email_upper" android:shadowColor="#ffc0c1c1" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sergeyb_tablereservation_calendar" android:background="@drawable/sergeyb_tablereservation_grey_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+                    <TextView android:textStyle="bold" android:textColor="#ff353535" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_add_to_calendar" android:shadowColor="#ffc0c1c1" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sergeyb_tablereservation_direction" android:background="@drawable/sergeyb_tablereservation_grey_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                    <TextView android:textStyle="bold" android:textColor="#ff353535" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/common_get_direction" android:shadowColor="#ffc0c1c1" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sergeyb_tablereservation_ok" android:background="@drawable/sergeyb_tablereservation_black_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+                    <TextView android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/common_cancel_upper" android:shadowColor="#ff313232" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="62.0dip" android:layout_height="wrap_content" android:layout_marginLeft="178.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

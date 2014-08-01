@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sergeyb_tablereservation_main_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/sergeyb_tablereservation_custom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="50.0dip">
+        <TextView android:id="@id/sergeyb_tablereservation_reservation_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/sunday_march" />
+        <TextView android:gravity="center_horizontal" android:id="@id/sergeyb_tablereservation_reservation_time_and_persons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/seven_pm_for_2_people" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/sergeyb_tablereservation_divider" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <TextView android:id="@id/sergeyb_tablereservation_reservation_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/username" />
+        <TextView android:id="@id/sergeyb_tablereservation_reservation_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-@-" />
+        <TextView android:id="@id/sergeyb_tablereservation_reservation_userphone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\###-####-###" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/sergeyb_tablereservation_special_request" android:background="@drawable/sergeyb_tablereservation_back_transperant_15alpha" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="50.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="50.0dip" android:baselineAligned="false">
+        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textStyle="bold" android:id="@id/sergeyb_tablereservation_special_request_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/add_special_request" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/sergeyb_tablereservation_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sergeyb_tablereservation_confirm" android:background="@drawable/sergeyb_tablereservation_submit_button" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="50.0dip">
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:text="@string/common_confirm_upper" />
+    </LinearLayout>
+</LinearLayout>

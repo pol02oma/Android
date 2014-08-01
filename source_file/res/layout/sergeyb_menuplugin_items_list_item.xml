@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/sergeyb_menuplugin_image_placeholder" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:orientation="vertical" android:background="@drawable/sergeyb_menuplugin_product_bg_shadow" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+            <ImageView android:id="@id/sergeyb_menuplugin_item_image" android:longClickable="false" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/sergeyb_menuplugin_no_image_square" android:scaleType="centerCrop" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/sergeyb_menuplugin_item_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <RelativeLayout android:layout_gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_temp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/sergeyb_menuplugin_item_price">
+                <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ffffb676" android:id="@id/sergeyb_menuplugin_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/name" android:maxLines="2" />
+            </LinearLayout>
+            <TextView android:textSize="15.0dip" android:textStyle="bold" android:id="@id/sergeyb_menuplugin_item_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/price" android:maxLines="1" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <TextView android:textSize="12.0dip" android:ellipsize="end" android:id="@id/sergeyb_menuplugin_item_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="asdfasdf asd faas \u0020\u0020asdfasdf \u0020asdf asdfasdfas asdfasddfasd \u0020asdfasdfa \u0020asdf asdf asd fa asdfasd \u0020asdfasdfasdf \u0020asdf asd fasdf asdf" android:maxLines="3" android:lines="3" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
